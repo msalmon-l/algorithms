@@ -6,7 +6,7 @@
 /*   By: msalmon- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/18 23:10:45 by msalmon-          #+#    #+#             */
-/*   Updated: 2023/02/23 21:32:20 by msalmon-         ###   ########.fr       */
+/*   Updated: 2023/02/24 20:55:52 by msalmon-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,13 +45,11 @@ int	main(int argc, char **argv)
 
 void	ft_print_list(list_b *lista)
 {
-	printf("entra en imprimir la lista\n");
+	printf("----entra en imprimir la lista----\n");
 	while (lista)
 	{
-		printf("Es aqui donde falla????? -> %i\n", lista->content);
+		printf("numero: %i\n", lista->content);
 		lista = (*lista).next;
-		if (lista != NULL)
-			printf("en la lista ha cambiado a %i\n", lista->content);
 	}
-	printf("sale del buche del imprimir listai\n");
+	printf("     !!!****!!!    \n");
 }
