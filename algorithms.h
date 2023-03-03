@@ -25,11 +25,17 @@ void	ft_change(list_b **lista, int post, int num);
 void	ft_print_list(list_b *lista);
 
 //structure by insertion sort
+/*
 typedef struct s_list
 {
-	int	content;
+	int		content;
+	int		position;
 	struct	s_list	*next;
 	struct	s_list	*previus;
 }	list_is;
 
+list_is	*ft_lstnew();
+list_is	*ft_lstlast();
+void	ft_lstadd_back();
+*/
 #endif
